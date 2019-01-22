@@ -5,6 +5,21 @@ body {
   background-image: url(img/bg.png);
 }
 
+h1, h2, h3 {
+    color: #3e3e3e;
+}
+
+h1 {
+    font-size: 3.25em;
+    margin-bottom: 1.75em;
+    margin-top: 0.35em;
+  }
+
+h3{
+    font-size: 1.5em;
+}  
+  
+
 nav {
   background-color: #282828;
 }
@@ -97,13 +112,6 @@ nav {
   padding-top: 100%;
 }
 
-.greetings-block-header h1 {
-  font-size: 3.25em;
-  color: #3e3e3e;
-  margin-bottom: 1.75em;
-  margin-top: 0.35em;
-}
-
 .greetings-block-right{
     margin-left: 1%;
 }
@@ -119,6 +127,25 @@ nav {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Обо мне */
+
+.skills-item {
+    background: #fff;
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 2em 2em 2.5em 2em;
+}
+
+
+.skills-icon{
+    color:#e6808a;
+    font-size: 5rem;
+    margin-bottom: 1.25rem;
+}
+
+
+/* Медия запросы */
 
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
